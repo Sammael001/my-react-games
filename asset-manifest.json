@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Sammael001/my-react-games/static/css/main.c885eacb.chunk.css",
-    "main.js": "/Sammael001/my-react-games/static/js/main.3b6c49a4.chunk.js",
-    "main.js.map": "/Sammael001/my-react-games/static/js/main.3b6c49a4.chunk.js.map",
-    "runtime-main.js": "/Sammael001/my-react-games/static/js/runtime-main.dfc5a681.js",
-    "runtime-main.js.map": "/Sammael001/my-react-games/static/js/runtime-main.dfc5a681.js.map",
-    "static/js/2.deb7dd1c.chunk.js": "/Sammael001/my-react-games/static/js/2.deb7dd1c.chunk.js",
-    "static/js/2.deb7dd1c.chunk.js.map": "/Sammael001/my-react-games/static/js/2.deb7dd1c.chunk.js.map",
-    "index.html": "/Sammael001/my-react-games/index.html",
-    "precache-manifest.3dcfeb6224935a70835d10bb5cdfa1d0.js": "/Sammael001/my-react-games/precache-manifest.3dcfeb6224935a70835d10bb5cdfa1d0.js",
-    "service-worker.js": "/Sammael001/my-react-games/service-worker.js",
-    "static/css/main.c885eacb.chunk.css.map": "/Sammael001/my-react-games/static/css/main.c885eacb.chunk.css.map",
-    "static/js/2.deb7dd1c.chunk.js.LICENSE.txt": "/Sammael001/my-react-games/static/js/2.deb7dd1c.chunk.js.LICENSE.txt",
-    "static/media/Tile.css": "/Sammael001/my-react-games/static/media/moon.41bffd1a.jpg",
-    "static/media/WaterfallBoard.css": "/Sammael001/my-react-games/static/media/castle.ccfdb1c3.jpg",
-    "static/media/App.css": "/Sammael001/my-react-games/static/media/lake.e3b94f13.jpg",
-    "static/media/Board.css": "/Sammael001/my-react-games/static/media/mist.6d4df5a6.jpg"
+    "main.css": "/my-react-games/static/css/main.2d13cca7.chunk.css",
+    "main.js": "/my-react-games/static/js/main.3b6c49a4.chunk.js",
+    "main.js.map": "/my-react-games/static/js/main.3b6c49a4.chunk.js.map",
+    "runtime-main.js": "/my-react-games/static/js/runtime-main.fc66f209.js",
+    "runtime-main.js.map": "/my-react-games/static/js/runtime-main.fc66f209.js.map",
+    "static/js/2.deb7dd1c.chunk.js": "/my-react-games/static/js/2.deb7dd1c.chunk.js",
+    "static/js/2.deb7dd1c.chunk.js.map": "/my-react-games/static/js/2.deb7dd1c.chunk.js.map",
+    "index.html": "/my-react-games/index.html",
+    "precache-manifest.5b014b2cb6a550eafe5db1dfc13fcb8a.js": "/my-react-games/precache-manifest.5b014b2cb6a550eafe5db1dfc13fcb8a.js",
+    "service-worker.js": "/my-react-games/service-worker.js",
+    "static/css/main.2d13cca7.chunk.css.map": "/my-react-games/static/css/main.2d13cca7.chunk.css.map",
+    "static/js/2.deb7dd1c.chunk.js.LICENSE.txt": "/my-react-games/static/js/2.deb7dd1c.chunk.js.LICENSE.txt",
+    "static/media/Tile.css": "/my-react-games/static/media/moon.41bffd1a.jpg",
+    "static/media/WaterfallBoard.css": "/my-react-games/static/media/castle.ccfdb1c3.jpg",
+    "static/media/App.css": "/my-react-games/static/media/lake.e3b94f13.jpg",
+    "static/media/Board.css": "/my-react-games/static/media/mist.6d4df5a6.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.dfc5a681.js",
+    "static/js/runtime-main.fc66f209.js",
     "static/js/2.deb7dd1c.chunk.js",
-    "static/css/main.c885eacb.chunk.css",
+    "static/css/main.2d13cca7.chunk.css",
     "static/js/main.3b6c49a4.chunk.js"
   ]
 }
