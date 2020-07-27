@@ -1,0 +1,76 @@
+
+
+.title {
+  margin-top: 0;
+  padding-top: 2em;
+  font-size: 2em;
+}
+.message {
+  font-size: 1.25em;
+}
+
+.default-button {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 1.1em;
+  letter-spacing: 0.05em;
+  background-color: #8c8c8c;
+  border-radius: 0.75em;
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  border: 1px solid black;
+  /* box-shadow: inset 2px 2px #666666, inset -2px -2px #404040; */
+  /* box-shadow: inset -4px -4px green, inset -4px 4px yellow, inset 4px 4px red, inset 4px -4px blue;  */
+  box-shadow: inset -4px -4px #404040, inset -4px 4px #666666, inset 4px 4px #666666, inset 4px -4px #666666;
+  padding: 0.5em;
+  margin-top: 1em;
+}
+
+.start-button:hover {
+  background-color: #bfbfbf;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('rune-imgs/mist.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  font-family: 'Economica', sans-serif;
+  /* font-family: 'Saira Extra Condensed', sans-serif; */
+  margin: 0;
+  font-size: 1.25em;
+  letter-spacing: 0.05em;
+  box-sizing: border-box;
+  color: white;
+}
+/* .container {
+  font-family: 'Economica', sans-serif;
+  margin: 0;
+  font-size: 1.25em;
+  letter-spacing: 0.05em;
+  box-sizing: border-box;
+  color: white;
+} */
+
+.question-box {
+  height: 4em;
+}
+
+.rune-box {
+  width: 75%;
+  margin: auto;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 2px solid #1a1a1a;
+  border-radius: 2em;
+  background: linear-gradient(to bottom, rgba(50, 50, 50, 0.5), rgba(50, 50, 50, 0.5));
+}

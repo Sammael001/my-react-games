@@ -1,0 +1,50 @@
+.Board {
+  padding-top: 1em;
+  background-color: maroon;
+  padding-bottom: 2em;
+  font-family: 'Metal Mania', cursive;
+}
+
+.Board-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Board-title {
+  font-size: 2.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.3em;
+  letter-spacing: 2px;
+}
+
+.Board-start-button {
+  background-color: black;
+  color: red;
+  font-family: 'Metal Mania', cursive;
+  font-size: 2em;
+  border: 2px solid #333333;
+}
+.Board-start-button:hover {
+  border: 2px solid red;
+}
+
+.Board-start-visible {
+  position: absolute;
+  top: 50px;
+  height: 95%;
+  width: 100%;
+  background: rgba(204, 0, 0, 0.4);
+}
+
+.Board-start-visible > button {
+  margin-top: 20vh;
+}
+
+.Board-start-visible > h1 {
+  margin-top: 40vh;
+  color: tomato;
+  letter-spacing: 3px;
+  font-size: 3em;
+}

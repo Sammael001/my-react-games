@@ -1,0 +1,74 @@
+.tile {
+  width: 60px;
+  height: 60px;
+  border: none;
+  box-shadow: inset -2px -2px #262626, inset -2px 2px #666666, inset 2px 2px #666666, inset 2px -2px #666666;
+  /* animation: slideFromAbove 1s ease-out; */
+}
+
+
+.tile:focus {
+  outline: none;
+  background-color: rgba(0,200,360,0.35);
+  box-shadow: inset -2px -2px #003c4d, inset -2px 2px #00a0cc, inset 2px 2px #00a0cc, inset 2px -2px #00a0cc;
+}
+
+.tile:hover {
+  background-color: rgba(250,250,0,0.25);
+  box-shadow: inset -2px -2px #808000, inset -2px 2px #b3b300, inset 2px 2px #b3b300, inset 2px -2px #b3b300;
+}
+
+.bright {
+  background-color: rgba(360,60,60,0.35);
+  box-shadow: inset -2px -2px #990000, inset -2px 2px #cc0000, inset 2px 2px #cc0000, inset 2px -2px #cc0000;
+  animation: flicker 0.75s infinite;
+}
+
+.slider {
+  animation: slideFromAbove 1s ease-out;
+}
+
+
+@keyframes slideFromAbove {
+  0% {
+    opacity: 0;
+    transform: translateY(-10rem);
+  }
+  100% { opacity: 1; }
+}
+@keyframes flicker {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+/* "splat", "ankh", "bat", "coffin", "eye", "emerald", "skull", "moon", "wolf" */
+
+.splat { background: rgba(360,360,360,0.25) url("./moon-imgs/splat1.png") no-repeat center; }
+.ankh2 { background: rgba(360,360,360,0.25) url("./moon-imgs/ankh2.png") no-repeat center; }
+.bat { background: rgba(360,360,360,0.25) url("./moon-imgs/bat.png") no-repeat center; }
+.coffin { background: rgba(360,360,360,0.25) url("./moon-imgs/coffin2.png") no-repeat center; }
+.eye { background: rgba(360,360,360,0.25) url("./moon-imgs/eye.png") no-repeat center; }
+.emerald { background: rgba(360,360,360,0.25) url("./moon-imgs/emerald.png") no-repeat center; }
+.wolf { background: rgba(360,360,360,0.25) url("./moon-imgs/wolf.png") no-repeat center; }
+.skull { background: rgba(360,360,360,0.25) url("./moon-imgs/skull2.png") no-repeat center; }
+.moon2 { background: rgba(360,360,360,0.25) url("./moon-imgs/moon2.png") no-repeat center; }
+.goblet { background: rgba(360,360,360,0.25) url("./moon-imgs/goblet3.png") no-repeat center; }
+
+.splat-paired { background: rgba(360,60,60,0.35) url("./moon-imgs/splat1.png") no-repeat center; }
+.ankh2-paired { background: rgba(360,60,60,0.35) url("./moon-imgs/ankh2.png") no-repeat center; }
+.bat-paired { background: rgba(360,60,60,0.35) url("./moon-imgs/bat.png") no-repeat center; }
+.coffin-paired { background: rgba(360,60,60,0.35) url("./moon-imgs/coffin2.png") no-repeat center; }
+.eye-paired { background: rgba(360,60,60,0.35) url("./moon-imgs/eye.png") no-repeat center; }
+.emerald-paired { background: rgba(360,60,60,0.35) url("./moon-imgs/emerald.png") no-repeat center; }
+.wolf-paired { background: rgba(360,60,60,0.35) url("./moon-imgs/wolf.png") no-repeat center; }
+.skull-paired { background: rgba(360,60,60,0.35) url("./moon-imgs/skull2.png") no-repeat center; }
+.moon2-paired { background: rgba(360,60,60,0.35) url("./moon-imgs/moon2.png") no-repeat center; }
+.goblet-paired { background: rgba(360,60,60,0.35) url("./moon-imgs/goblet3.png") no-repeat center; }
+
+/* .white { background: #8c8c8c url("./moon-imgs/whitemoon.jpg") no-repeat center; }
+.red { background: #8c8c8c url("./moon-imgs/redmoon.png") no-repeat center; }
+.orange { background: #8c8c8c url("./moon-imgs/orangemoon.png") no-repeat center; }
+.purple { color: white; background: #8c8c8c url("./moon-imgs/purplemoon.png") no-repeat center; }
+.green { background: #8c8c8c url("./moon-imgs/greenmoon.png") no-repeat center; }
+.blue { background: #8c8c8c url("./moon-imgs/bluemoon.png") no-repeat center; } */

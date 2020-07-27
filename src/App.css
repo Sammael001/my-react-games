@@ -1,38 +1,93 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-menu {
+  font-family: 'Economica', sans-serif;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e6e6;
+  border-bottom: 1px solid #bfbfbf;
+}
+.nav-full {
+  font-family: 'Economica', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image:
+    linear-gradient(to bottom, rgba(360, 360, 360, 0.75), rgba(360, 360, 360, 0.75)),
+    url('./lake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-button {
+  margin-left: 0.5em;
+  font-family: 'Economica', sans-serif;
+  font-weight: bold;
+  font-size: 1.25em;
+  border-radius: 0.75em;
+  border: 1px solid black;
+  padding: 0.35em;
+  letter-spacing: 0.05em;
+}
+
+.match-button {
+  color: #ff9999;
+  box-shadow: inset -4px -4px #000000, inset -4px 4px #737373, inset 4px 4px #737373, inset 4px -4px #737373;
+  background-color: #404040;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.match-button:hover {
+  background-color: #999999;
+}
+.vamp-button {
+  color: black;
+  box-shadow: inset -4px -4px #4d0000, inset -4px 4px #990000, inset 4px 4px #990000, inset 4px -4px #990000;
+  background-color: #cc0000;
+  text-shadow:
+    -1px -1px 0 red,
+    1px -1px 0 red,
+    -1px 1px 0 red,
+    1px 1px 0 red;
+}
+.vamp-button:hover {
+  background-color: red;
+}
+.rune-button {
+  color: black;
+  box-shadow: inset -4px -4px #404040, inset -4px 4px #666666, inset 4px 4px #666666, inset 4px -4px #666666;
+  background-color: #999999;
+  text-shadow:
+    -1px -1px 0 #d9d9d9,
+    1px -1px 0 #d9d9d9,
+    -1px 1px 0 #d9d9d9,
+    1px 1px 0 #d9d9d9;
+}
+.rune-button:hover {
+  background-color: #bfbfbf;
+}
+.portfolio {
+  color: black;
+  box-shadow: inset -4px -4px #208000, inset -4px 4px #d9ffcc, inset 4px 4px #d9ffcc, inset 4px -4px #d9ffcc;
+  background-color: #40ff00;
+}
+.portfolio:hover {
+  background-color: #8cff66;
 }

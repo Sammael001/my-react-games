@@ -1,0 +1,90 @@
+
+
+.rune-tile {
+  min-width: 50px;
+  height: 85px;
+  border-radius: 1em;
+  margin: 0.25em;
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  padding-top: 60px;
+  font-weight: bold;
+  font-family: 'Economica', sans-serif;
+}
+
+.rune-tile:focus{
+  outline: none;
+  background-color: #53acac;
+  box-shadow: inset -4px -4px #295656, inset -4px 4px #428a8a, inset 4px 4px #428a8a, inset 4px -4px #428a8a;
+}
+.rune-tile:focus:hover{
+  background-color: #87c5c5;
+}
+
+.unpaired:hover {
+  background-color: #bfbfbf;
+}
+
+
+.paired {
+  box-shadow: inset -4px -4px #806600, inset -4px 4px #cca300, inset 4px 4px #cca300, inset 4px -4px #cca300;
+}
+.paired:hover {
+  background-color: #ffe066;
+}
+
+/* fehu,  uruz, thurisaz, ansuz, raidho, kaunaz, gebo, wunju, hagalaz, naudiz, isa, jara, eihwaz, perthu, algiz, sowulo, teiwaz, berkana, ehwaz, mannaz, laguz, ingwaz, dagaz, othala */
+
+.fehu { background: #8c8c8c url("./rune-imgs/fehu.png") no-repeat center; }
+.uruz { background: #8c8c8c url("./rune-imgs/uruz.png") no-repeat center; }
+.thurisaz { background: #8c8c8c url("./rune-imgs/thurisaz.png") no-repeat center; }
+.ansuz { background: #8c8c8c url("./rune-imgs/ansuz.png") no-repeat center; }
+.raidho { background: #8c8c8c url("./rune-imgs/raidho.png") no-repeat center; }
+.kaunaz { background: #8c8c8c url("./rune-imgs/kaunaz.png") no-repeat center; }
+.gebo { background: #8c8c8c url("./rune-imgs/gebo.png") no-repeat center; }
+.wunju { background: #8c8c8c url("./rune-imgs/wunju.png") no-repeat center; }
+.hagalaz { background: #8c8c8c url("./rune-imgs/hagalaz.png") no-repeat center; }
+.naudiz { background: #8c8c8c url("./rune-imgs/naudiz.png") no-repeat center; }
+.isa { background: #8c8c8c url("./rune-imgs/isa.png") no-repeat center; }
+.jara { background: #8c8c8c url("./rune-imgs/jara.png") no-repeat center; }
+.eihwaz { background: #8c8c8c url("./rune-imgs/eihwaz.png") no-repeat center; }
+.perthu { background: #8c8c8c url("./rune-imgs/perthu.png") no-repeat center; }
+.algiz { background: #8c8c8c url("./rune-imgs/algiz.png") no-repeat center; }
+.sowulo { background: #8c8c8c url("./rune-imgs/sowulo.png") no-repeat center; }
+.teiwaz { background: #8c8c8c url("./rune-imgs/teiwaz.png") no-repeat center; }
+.berkana { background: #8c8c8c url("./rune-imgs/berkana.png") no-repeat center; }
+.ehwaz { background: #8c8c8c url("./rune-imgs/ehwaz.png") no-repeat center; }
+.mannaz { background: #8c8c8c url("./rune-imgs/mannaz.png") no-repeat center; }
+.laguz { background: #8c8c8c url("./rune-imgs/laguz.png") no-repeat center; }
+.ingwaz { background: #8c8c8c url("./rune-imgs/ingwaz.png") no-repeat center; }
+.dagaz { background: #8c8c8c url("./rune-imgs/dagaz.png") no-repeat center; }
+.othala { background: #8c8c8c url("./rune-imgs/othala.png") no-repeat center; }
+
+.fehu-paired { background: #ffcc00 url("./rune-imgs/fehu.png") no-repeat center; }
+.uruz-paired { background: #ffcc00 url("./rune-imgs/uruz.png") no-repeat center; }
+.thurisaz-paired { background: #ffcc00 url("./rune-imgs/thurisaz.png") no-repeat center; }
+.ansuz-paired { background: #ffcc00 url("./rune-imgs/ansuz.png") no-repeat center; }
+.raidho-paired { background: #ffcc00 url("./rune-imgs/raidho.png") no-repeat center; }
+.kaunaz-paired { background: #ffcc00 url("./rune-imgs/kaunaz.png") no-repeat center; }
+.gebo-paired { background: #ffcc00 url("./rune-imgs/gebo.png") no-repeat center; }
+.wunju-paired { background: #ffcc00 url("./rune-imgs/wunju.png") no-repeat center; }
+.hagalaz-paired { background: #ffcc00 url("./rune-imgs/hagalaz.png") no-repeat center; }
+.naudiz-paired { background: #ffcc00 url("./rune-imgs/naudiz.png") no-repeat center; }
+.isa-paired { background: #ffcc00 url("./rune-imgs/isa.png") no-repeat center; }
+.jara-paired { background: #ffcc00 url("./rune-imgs/jara.png") no-repeat center; }
+.eihwaz-paired { background: #ffcc00 url("./rune-imgs/eihwaz.png") no-repeat center; }
+.perthu-paired { background: #ffcc00 url("./rune-imgs/perthu.png") no-repeat center; }
+.algiz-paired { background: #ffcc00 url("./rune-imgs/algiz.png") no-repeat center; }
+.sowulo-paired { background: #ffcc00 url("./rune-imgs/sowulo.png") no-repeat center; }
+.teiwaz-paired { background: #ffcc00 url("./rune-imgs/teiwaz.png") no-repeat center; }
+.berkana-paired { background: #ffcc00 url("./rune-imgs/berkana.png") no-repeat center; }
+.ehwaz-paired { background: #ffcc00 url("./rune-imgs/ehwaz.png") no-repeat center; }
+.mannaz-paired { background: #ffcc00 url("./rune-imgs/mannaz.png") no-repeat center; }
+.laguz-paired { background: #ffcc00 url("./rune-imgs/laguz.png") no-repeat center; }
+.ingwaz-paired { background: #ffcc00 url("./rune-imgs/ingwaz.png") no-repeat center; }
+.dagaz-paired { background: #ffcc00 url("./rune-imgs/dagaz.png") no-repeat center; }
+.othala-paired { background: #ffcc00 url("./rune-imgs/othala.png") no-repeat center; }

@@ -1,0 +1,87 @@
+.Tile-button {
+  border-radius: 0;
+  border: 2px solid #333333;
+  color: lightgray;
+  width: 150px;
+  height: 150px;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+  background-size: 100%;
+  background-position: 50% 50%;
+}
+
+.hilight:hover {
+  border: 3px solid #cc0000;
+}
+
+.hilight:active {
+  border: 1px solid red;
+  outline: none;
+}
+.hilight:focus {
+  border: 1px solid tomato;
+  outline: none;
+}
+
+.bg {
+  background-image: url("./vamp-imgs/bg.jpg");
+}
+.bg-fade {
+  background-image: url("./vamp-imgs/bg-fade.jpg");
+}
+
+.ankh {
+  background-image: url("./vamp-imgs/ankh.jpg");
+}
+.ankh-fade {
+  background-image: url("./vamp-imgs/ankh-fade.jpg");
+}
+
+.bats {
+  background-image: url("./vamp-imgs/bats.jpg");
+}
+.bats-fade {
+  background-image: url("./vamp-imgs/bats-fade.jpg");
+}
+
+.blood {
+  background-image: url("./vamp-imgs/blood.jpg");
+}
+.blood-fade {
+  background-image: url("./vamp-imgs/blood-fade.jpg");
+}
+
+.candles2 {
+  background-image: url("./vamp-imgs/candles2.jpg");
+}
+.candles2-fade {
+  background-image: url("./vamp-imgs/candles2-fade.jpg");
+}
+
+.castle {
+  background-image: url("./vamp-imgs/castle.jpg");
+}
+.castle-fade {
+  background-image: url("./vamp-imgs/castle-fade.jpg");
+}
+
+.cup {
+  background-image: url("./vamp-imgs/cup.jpg");
+}
+.cup-fade {
+  background-image: url("./vamp-imgs/cup-fade.jpg");
+}
+
+.fangs2 {
+  background-image: url("./vamp-imgs/fangs2.jpg");
+}
+.fangs2-fade {
+  background-image: url("./vamp-imgs/fangs2-fade.jpg");
+}
+
+.moon {
+  background-image: url("./vamp-imgs/moon.jpg");
+}
+.moon-fade {
+  background-image: url("./vamp-imgs/moon-fade.jpg");
+}
